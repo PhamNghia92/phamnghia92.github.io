@@ -51,15 +51,16 @@
         <input type="text" id="name" placeholder="Enter your name" />
         <button onclick="button_click()">Click me!</button>
     </div>
-</body>
-<script type="text/javascript">
-    function button_click() {
-    let name = document.querySelector('#name').value;
-    let result = confirm("I like " + name + ". Do you like me?");
-    while(result !== true) {
-    result = "Erro";
-    }
-    document.body.className = "bg-heart";
-    }
+    <script type="text/javascript">
+        function button_click() {
+            let name = document.querySelector('#name').value;
+            let result = confirm("I like " + name + ". Do you like me?");
+            while (result !== true) {
+                result = "Errol";
+            }
+            document.body.className = "bg-heart";
+        }
     </script>
+</body>
+
 </html>
