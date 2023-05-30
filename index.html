@@ -57,8 +57,9 @@
             const result = confirm("I like " + name + ". Do you like me?");
             while (result !== true) {
                 result = alert("Errol") ;
+                return;
             }
-            return;
+            
             document.body.className = "bg-heart";
         }
     </script>
